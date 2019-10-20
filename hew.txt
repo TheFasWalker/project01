@@ -1,2 +1,0 @@
-print(helow world)
-и вам не болеть!
