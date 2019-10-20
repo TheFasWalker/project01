@@ -548,6 +548,18 @@
     text-transform: uppercase;
 }
 
+.price-buttom:hover{
+    color: gray;
+    background-color: aqua;
+    border: 2px solid yellow;
+    border-radius:10px;
+}
+.price-buttom:active{
+    background-color: darkgreen;
+    color: blue;
+    border: 5px solid yellow;
+    border-radius:10px;}
+
 .price-buttom2 {
     width: 260px;
     height: 40px;
@@ -561,6 +573,17 @@
     text-transform: uppercase;
     margin: 0 0 20px 20px;
 }
+.price-buttom2:hover{
+    color: gray;
+    background-color: aqua;
+    border: 2px solid yellow;
+    border-radius:10px;
+}
+.price-buttom2:active{
+    background-color: darkgreen;
+    color: blue;
+    border: 5px solid yellow;
+    border-radius:10px;}
 
 .price-buttom3 {
     width: 260px;
@@ -575,6 +598,18 @@
     text-transform: uppercase;
     margin: 0 0 20px 20px;
 }
+
+.price-buttom3:hover{
+    color: gray;
+    background-color: aqua;
+    border: 2px solid yellow;
+    border-radius:10px;
+}
+.price-buttom3:active{
+    background-color: darkgreen;
+    color: blue;
+    border: 5px solid yellow;
+    border-radius:10px;}
 
 .price-item-list-link {
     color: #ffffff;
@@ -618,6 +653,7 @@ a {
     line-height: 24px;
     padding: 0 0 30 0
 }
+
 
 ul {
     list-style-type: none;
@@ -701,7 +737,18 @@ ul {
     text-transform: uppercase;
     background-color: white;
 }
-
+.contact-send-button:hover{
+    color: gray;
+    background-color: aqua;
+    border: 2px solid yellow;
+    border-radius:10px;
+}
+.contact-send-button:active{
+    background-color: darkgreen;
+    color: blue;
+    border: 5px solid yellow;
+    border-radius:10px;
+}
 .contact-lists {
     float: right;
     padding: 30px 246px 0px 0px;
