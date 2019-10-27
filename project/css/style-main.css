@@ -32,7 +32,7 @@
 .header-main-list {
     list-style-type: none;
     width: 422px;
-    height: 127px;
+    min-height: 127px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-family: Arial;
@@ -47,7 +47,7 @@
     content: "";
     display: block;
     width: 25px;
-    height: 19px;
+    min-height: 19px;
     position: absolute;
     top: 7px;
     left: -37px;
@@ -60,7 +60,7 @@
     display: block;
     background-color: #ffffff;
     width: 469px;
-    height: 214px;
+    min-height: 214px;
     float: right;
 }
 /*первый блок*/
