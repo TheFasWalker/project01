@@ -101,7 +101,16 @@
     font-weight: 400;
     line-height: 24px;
 }
+/*
 .sec1-img {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    display: block;
+}
+*/
+.sec1-video {
     float: right;
     width: 430px;
     height: 245px;
@@ -406,7 +415,8 @@
 /*Блок цен*/
 .price {
     margin: 0 auto;
-    padding: 0 0px 50px 0px;
+    min-width: 733px;
+    padding: 50px 0px 50px 0px;
     width: 100%;
     min-height: 565px;
     display: flex;
@@ -441,14 +451,16 @@
     line-height: 30px;
 }
 .price-item-price {
-    margin: 0;
+    width:300px;
+    height: 71px;
     text-align: center;
     background-color: #ffffff;
     border: 2px solid #445162;
-    padding: 17px 0 17px 0;
+    padding: 17px 130px 17px 140px;
 }
 .price-item-list {
     background-color: #445162;
+    padding:19px 0 19px 40px ;
 }
 .price-buttom {
     width: 260px;
@@ -462,19 +474,18 @@
     line-height: 18px;
     text-transform: uppercase;
     outline: none;
+    padding: 14px 112px 14px 112px;
 }
 .price-buttom:hover{
     color: gray;
     background-color: aqua;
-    border: 2px solid yellow;
-    border-radius:10px;
+   
     outline: none;
 }
 .price-buttom:active{
     background-color: darkgreen;
     color: blue;
-    border: 5px solid yellow;
-    border-radius:10px;
+    
     outline: none;
 }
 .price-buttom2 {
