@@ -1,23 +1,15 @@
 /*основные настройки контейнера*/
-
 .container {
     width: 1280px;
     margin: 0 auto;
 }
-
-
-/*избавляемся от "налезания" блока на блок*/
-
 .dis-block {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
-
 /*настройка хедера*/
-
 .header-main {
     width: 100%;
     min-height: 323px;
@@ -25,11 +17,9 @@
     background-color: #445162;
     box-sizing: border-box;
 }
-
 .header-main-wraper {
     float: left;
 }
-
 .header-main-title {
     width: 367px;
     height: 44px;
@@ -39,11 +29,10 @@
     font-size: 58px;
     font-weight: 400;
 }
-
 .header-main-list {
     list-style-type: none;
     width: 422px;
-    height: 127px;
+    min-height: 127px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-family: Arial;
@@ -51,16 +40,14 @@
     font-weight: 400;
     line-height: 36px;
 }
-
 .header-main-list-link {
     position: relative;
 }
-
 .header-main-list-link:before {
     content: "";
     display: block;
     width: 25px;
-    height: 19px;
+    min-height: 19px;
     position: absolute;
     top: 7px;
     left: -37px;
@@ -69,18 +56,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .main-header-photo {
     display: block;
     background-color: #ffffff;
     width: 469px;
-    height: 214px;
+    min-height: 214px;
     float: right;
 }
-
-
 /*первый блок*/
-
 .section1 {
     width: 100%;
     min-height: 350px;
@@ -88,11 +71,9 @@
     padding: 50px;
     box-sizing: border-box;
 }
-
 .sec1-text {
     float: left;
 }
-
 .sec1-h {
     width: 254px;
     height: 28px;
@@ -102,7 +83,6 @@
     font-weight: 400;
     line-height: 36px;
 }
-
 .sec1-p1 {
     width: 649px;
     height: 63px;
@@ -112,7 +92,6 @@
     font-weight: 400;
     line-height: 24px;
 }
-
 .sec1-p2 {
     width: 653px;
     height: 60px;
@@ -122,7 +101,7 @@
     font-weight: 400;
     line-height: 24px;
 }
-
+/*
 .sec1-img {
     float: right;
     width: 430px;
@@ -130,24 +109,27 @@
     background-color: #445161;
     display: block;
 }
-
-
+*/
+.sec1-video {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    display: block;
+}
 /*2й блок*/
-
 .dignity {
     width: 100%;
     padding: 50px;
     background-color: #f5f5f5;
     box-sizing: border-box;
 }
-
 .dignity:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .dignity-title {
     display: block;
     margin: 0 0 24px 0;
@@ -157,7 +139,6 @@
     color: rgb(68, 81, 97);
     line-height: 1.2;
 }
-
 .dignity-list {
     width: 540px;
     margin: 0;
@@ -165,21 +146,17 @@
     list-style-type: none;
     float: left;
 }
-
 .dignity-list:nth-child(3) {
     float: right;
 }
-
 .dignity-list-item {
     margin: 0 0 40px 0;
     position: relative;
 }
-
 .dignity-list:nth-child(2) > .dignity-list-item:nth-child(3),
 .dignity-list:nth-child(3) > .dignity-list-item:nth-child(3) {
     margin: 0;
 }
-
 .dignity-list-item:before {
     content: "+";
     display: block;
@@ -194,16 +171,12 @@
     top: 0;
     left: -46px;
 }
-
-
 /*3й блок скриншоты*/
-
 .screenshots {
     width: 100%;
     min-height: 487px;
     background-color: #ffffff;
 }
-
 .screenhots-h {
     width: 138px;
     height: 22px;
@@ -214,10 +187,7 @@
     line-height: 36px;
     margin: 0 auto;
 }
-
-
 /*скрин 1*/
-
 .screenshot1 {
     min-height: 151px;
     width: 574px;
@@ -225,7 +195,6 @@
     box-sizing: border-box;
     margin: 34px 0 0 50px;
 }
-
 .screenshot1-img {
     width: 200px;
     height: 150px;
@@ -234,11 +203,9 @@
     display: block;
     margin: 0 15px 0 0;
 }
-
 .screenshot1-text {
     margin: -2px;
 }
-
 .screenshot1-text-h {
     margin: 0 0 15px 0;
     color: #445161;
@@ -247,7 +214,6 @@
     font-size: 24px;
     font-weight: 400;
 }
-
 .screenshot1-text-p {
     margin: 0;
     color: #333333;
@@ -259,10 +225,7 @@
     color: #333333;
     ;
 }
-
-
 /*скрин 2*/
-
 .screenshot2 {
     min-height: 151px;
     width: 574px;
@@ -270,7 +233,6 @@
     float: left;
     margin: 34px 0 0 50px;
 }
-
 .screenshot2-img {
     width: 200px;
     height: 150px;
@@ -279,11 +241,9 @@
     display: block;
     margin: 0 15px 0 0;
 }
-
 .screenshot2-text {
     margin: -2px;
 }
-
 .screenshot2-text-h {
     margin: 0 0 15px 0;
     color: #445161;
@@ -292,7 +252,6 @@
     font-size: 24px;
     font-weight: 400;
 }
-
 .screenshot2-text-p {
     margin: 0;
     color: #333333;
@@ -304,10 +263,7 @@
     color: #333333;
     ;
 }
-
-
 /*3й скрин*/
-
 .screenshot3 {
     min-height: 151px;
     width: 574px;
@@ -315,7 +271,6 @@
     box-sizing: border-box;
     margin: 30px 0 0 50px;
 }
-
 .screenshot3-img {
     width: 200px;
     height: 150px;
@@ -324,11 +279,9 @@
     display: block;
     margin: 0 15px 0 0;
 }
-
 .screenshot3-text {
     margin: -2px;
 }
-
 .screenshot3-text-h {
     margin: 0 0 0px 0;
     text-align: left;
@@ -338,7 +291,6 @@
     font-weight: 400;
     line-height: 30px;
 }
-
 .screenshot3-text-p {
     margin: 0;
     color: #333333;
@@ -349,10 +301,7 @@
     font-weight: 400;
     line-height: 24px;
 }
-
-
 /*4й скрин*/
-
 .screenshot4 {
     min-height: 151px;
     width: 574px;
@@ -360,7 +309,6 @@
     box-sizing: border-box;
     margin: 30px 0 0 50px;
 }
-
 .screenshot4-img {
     width: 200px;
     height: 150px;
@@ -369,11 +317,9 @@
     display: block;
     margin: 0 15px 0 0;
 }
-
 .screenshot4-text {
     margin: 0px;
 }
-
 .screenshot4-text-h {
     margin: 0 0 0px 0;
     text-align: left;
@@ -383,7 +329,6 @@
     font-weight: 400;
     line-height: 30px;
 }
-
 .screenshot4-text-p {
     margin: 0;
     color: #333333;
@@ -394,17 +339,14 @@
     font-weight: 400;
     line-height: 24px;
 }
-
-
 /*4 блок Reviews*/
-
 .reviews {
     width: 100%;
     min-height: 423px;
     background-color: #f5f5f5;
-    padding: 50px 0 0 0;
+    padding: 50px 50pх 0 50px;
+    box-sizing: border-box;
 }
-
 .reviews-h {
     text-align: center;
     margin: 0 0 35px 0;
@@ -414,7 +356,6 @@
     font-weight: 400;
     line-height: 36px;
 }
-
 .rev {
     width: 400px;
     color: #333333;
@@ -423,7 +364,6 @@
     font-weight: 400;
     line-height: 18px;
 }
-
 .review {
     width: 483px;
     height: 121px;
@@ -434,7 +374,6 @@
     position: relative;
     float: left;
 }
-
 .review:before {
     content: "";
     display: block;
@@ -444,7 +383,6 @@
     top: 30px;
     left: -30px;
 }
-
 .autor {
     color: #989898;
     font-family: "Arial";
@@ -452,7 +390,6 @@
     font-weight: 400;
     line-height: 18px;
 }
-
 .rewiews-img {
     border-radius: 50%;
     background-color: #445161;
@@ -461,39 +398,32 @@
     float: left;
     margin: -7px 0 0 -100px;
 }
-
 .review:nth-child(3),
 .review:nth-child(5) {
     /*    float: right;*/
     margin: 0 0px 50px 123px;
 }
-
 .review:nth-child(3) {
     margin: 0px 0px 24px 123px;
 }
-
 .review:nth-child(2) {
     margin: 0px 0px 20px 141px;
 }
-
 .review:nth-child(4) {
     margin: 0px 0px 50px 141px;
 }
-
-
 /*Блок цен*/
-
 .price {
     margin: 0 auto;
-    padding: 0 0px 50px 0px;
+    min-width: 733px;
+    padding: 50px 0px 50px 0px;
     width: 100%;
     min-height: 565px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:
+    
 }
-
 .price-title {
     width: 100%;
     text-align: center;
@@ -503,13 +433,11 @@
     font-weight: 400;
     line-height: 36px;
 }
-
 .price-item {
     width: 306px;
     border-radius: 10px;
     background-color: #445162;
 }
-
 .price-item-class {
     text-align: center;
     background-color: #445162;
@@ -522,19 +450,18 @@
     font-weight: 400;
     line-height: 30px;
 }
-
 .price-item-price {
-    margin: 0;
+    width:300px;
+    height: 71px;
     text-align: center;
     background-color: #ffffff;
     border: 2px solid #445162;
-    padding: 17px 0 17px 0;
+    padding: 17px 130px 17px 140px;
 }
-
 .price-item-list {
     background-color: #445162;
+    padding:19px 0 19px 40px ;
 }
-
 .price-buttom {
     width: 260px;
     height: 40px;
@@ -546,20 +473,21 @@
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
+    outline: none;
+    padding: 14px 112px 14px 112px;
 }
-
 .price-buttom:hover{
     color: gray;
     background-color: aqua;
-    border: 2px solid yellow;
-    border-radius:10px;
+   
+    outline: none;
 }
 .price-buttom:active{
     background-color: darkgreen;
     color: blue;
-    border: 5px solid yellow;
-    border-radius:10px;}
-
+    
+    outline: none;
+}
 .price-buttom2 {
     width: 260px;
     height: 40px;
@@ -572,19 +500,22 @@
     line-height: 18px;
     text-transform: uppercase;
     margin: 0 0 20px 20px;
+    outline: none;
 }
 .price-buttom2:hover{
     color: gray;
     background-color: aqua;
     border: 2px solid yellow;
     border-radius:10px;
+    outline: none;
 }
 .price-buttom2:active{
     background-color: darkgreen;
     color: blue;
     border: 5px solid yellow;
-    border-radius:10px;}
-
+    border-radius:10px;
+    outline: none;
+}
 .price-buttom3 {
     width: 260px;
     height: 40px;
@@ -597,20 +528,22 @@
     line-height: 18px;
     text-transform: uppercase;
     margin: 0 0 20px 20px;
+    outline: none;
 }
-
 .price-buttom3:hover{
     color: gray;
     background-color: aqua;
     border: 2px solid yellow;
     border-radius:10px;
+    outline: none;
 }
 .price-buttom3:active{
     background-color: darkgreen;
     color: blue;
     border: 5px solid yellow;
-    border-radius:10px;}
-
+    border-radius:10px;
+    outline: none;
+}
 .price-item-list-link {
     color: #ffffff;
     font-family: "Arial";
@@ -618,30 +551,23 @@
     font-weight: 400;
     line-height: 24px;
 }
-
 .price-item:nth-child(2) {
     height: 306px;
     align-self: flex-end;
 }
-
 .price-item:nth-child(3) {
     height: 404px;
     align-self: flex-end;
     margin: 0 50px 0;
 }
-
 .price-item:last-child {
     height: 499px;
     align-self: flex-end;
 }
-
 .price-item:nth-child(3) .bottom {
     margin: 100px 100px;
 }
-
-
 /*секция контакты*/
-
 a {
     text-decoration: none;
     width: 124px;
@@ -653,19 +579,15 @@ a {
     line-height: 24px;
     padding: 0 0 30 0
 }
-
-
 ul {
     list-style-type: none;
 }
-
 .contact {
     width: 100%;
     height: 509px;
     background-color: #445162;
     padding: 50px 0px 50px 0px;
 }
-
 .contact-title {
     width: 117px;
     height: 22px;
@@ -676,13 +598,11 @@ ul {
     line-height: 36px;
     padding: 0 0 0 582px;
 }
-
 .contact-input {
     width: 500px;
     height: 354px;
     padding: 0px 0 0 200px;
 }
-
 .contact-name {
     height: 40px;
     width: 500px;
@@ -695,7 +615,6 @@ ul {
     font-weight: 400;
     line-height: 24px;
 }
-
 .contact-email {
     height: 40px;
     width: 500px;
@@ -707,8 +626,8 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    
 }
-
 .contact-txt {
     height: 170px;
     width: 500px;
@@ -722,7 +641,6 @@ ul {
     font-weight: 400;
     line-height: 24px;
 }
-
 .contact-send-button {
     width: 140px;
     height: 40px;
@@ -753,63 +671,47 @@ ul {
     float: right;
     padding: 30px 246px 0px 0px;
 }
-
 .contact-social_networks-list {
     float: right;
     padding: 37px 0px 0px px;
 }
-
 .contact-social_networks-list-li {
     float: right;
     list-style-type: none;
     margin: 0;
 }
-
-
 /*ярлыки соц сетей*/
-
 .fab {
     padding: 5px;
 }
-
 .far {
     padding: 5px;
 }
-
 .fas {
     padding: 5px
 }
-
 .fab.fa-skype {
     color: white;
 }
-
 .far.fa-at {
     color: white;
 }
-
 .fas.fa-phone {
     color: white;
 }
-
 .fab.fa-facebook {
     color: white;
 }
-
 .fab.fa-youtube {
     color: white;
 }
-
-
 /*Футер*/
-
 .footer-footer Co {
     width: 100%;
     min-height: 11px;
     background-color: #f5f5f5;
     text-align: center;
 }
-
 .footer-footer-txt {
     color: #445162;
     font-family: "Arial";
